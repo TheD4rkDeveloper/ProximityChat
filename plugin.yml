@@ -1,0 +1,20 @@
+---
+name: ProximityChat
+version: 1.0.0
+main: D4rkDev\ProximityChat\Main
+api: 5.0.0
+author: D4rkDev
+
+commands:
+  sudo:
+    description: "Sudo a player!"
+    permission: "command.sudo"
+
+permissions:
+  command.sudo:
+    description: "Permission to sudo a player!"
+    default: op
+  chat.receive:
+    description: "Permission to see messages regardless of the range!"
+    default: op
+...
