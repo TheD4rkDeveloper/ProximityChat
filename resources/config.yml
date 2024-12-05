@@ -1,0 +1,6 @@
+---
+# Message range in block count
+range: 20
+# Whether to send message to OPs, regardless of the range
+send-to-op: true
+...
